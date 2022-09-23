@@ -1,4 +1,4 @@
-from curses import COLOR_MAGENTA
+
 import os
 import time
 import colorama as cl
