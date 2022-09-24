@@ -9,7 +9,7 @@ names = ["Victor", "Peter", "Mary","Emily","Kirk", "John", "Badara", "Peer"]
 
 # Experiment with the methods in a list using dir(names)
 
-#Task 1
+#Task 1|2|3
 index_of=names.index("Peer")
 names[index_of]="Malcom X"
 names.append("Kirk")
