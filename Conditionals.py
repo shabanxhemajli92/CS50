@@ -11,16 +11,21 @@
 # else:
 #     print("F")  
  
-def main():
-    x = int(input("whats x?"))
-    if is_even(x):
-        print("Even")
-    else:
-        print("odd")
+# def main():
+#     x = int(input("whats x?"))
+#     if is_even(x):
+#         print("Even")
+#     else:
+#         print("odd")
 
-def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False    
-main()
+# def is_even(n):
+#     return n % 2 == 0
+# main()
+
+name = input("Whats your name?")
+if name == "Harry" or name=="Hermione" or name=="Ron":
+    print("Griffyndor")
+elif name == "Draco":
+    print("Slytherin")
+else:
+        print("Who?")     
