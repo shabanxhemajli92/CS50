@@ -11,3 +11,8 @@ def greetings():
     return "mr"
 
 print(greetings("fausto doe"))
+
+names = ['peter doe', 'peer doe', 'mary doe', 'tom doe', 'john doe']
+
+capital_names=[n.title() for n in names]
+print(capital_names)
