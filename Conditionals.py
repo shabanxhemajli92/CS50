@@ -22,9 +22,10 @@
 #     return n % 2 == 0
 # main()
 
-name = input("Whats your name?")
-match name:
-    case "Harry": 
-        print("Griffindor")
-    case "Harry": 
-        print("Griffindor") 
+# name = input("Whats your name?")
+# match name:
+#     case "Harry": 
+#         print("Griffindor")
+#     case "Harry": 
+#         print("Griffindor") 
+
